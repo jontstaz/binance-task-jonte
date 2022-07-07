@@ -154,6 +154,7 @@ if r.status_code == 200:
 else:
     raise Exception(r.text)
 
+# Initialise the global tradeTimes list for storing the real local execution times of trades
 global tradeTimes
 tradeTimes = []
     
